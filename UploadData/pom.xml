@@ -35,6 +35,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>com.wolfogre</groupId>
+			<artifactId>filebase</artifactId>
+			<version>0.1.1</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/../lib/filebase-0.1.1.jar</systemPath>
+		</dependency>
 	</dependencies>
 
 	<build>
